@@ -1,0 +1,28 @@
+html {
+  font-size: calc(1em + 0.85vw);
+}
+
+body {
+  max-width: 30em;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+body * {
+  margin: 0;
+}
+
+.meta {
+  font-family: monospace;
+  color: #777;
+  line-height: 1.25;
+}
+
+* + .meta,
+.meta + * {
+  margin-top: 3rem;
+}
+
+.meta + .meta {
+  margin-top: 1.25rem;
+}
